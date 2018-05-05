@@ -1,0 +1,2 @@
+Common targets are:
+    wisegaint-console-image
