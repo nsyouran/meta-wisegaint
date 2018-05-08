@@ -7,6 +7,7 @@ BBFILES ?= ""
 BBLAYERS ?= " \
   ##COREBASE##/meta \
   ##COREBASE##/meta-yocto \
+  ##COREBASE##/meta-yocto-bsp \
   ##COREBASE##/meta-openembedded/meta-gnome \
   ##COREBASE##/meta-openembedded/meta-oe \
   ##COREBASE##/meta-openembedded/meta-xfce \
@@ -16,10 +17,8 @@ BBLAYERS ?= " \
   ##COREBASE##/meta-openembedded/meta-python \
   ##COREBASE##/meta-sunxi \
   ##COREBASE##/meta-wisegaint \
-  ##COREBASE##/meta-kipr \
   ##COREBASE##/meta-qt5 \
   ##COREBASE##/meta-ros \
   ##COREBASE##/meta-browser \
   ##COREBASE##/meta-nodejs \
   "
-BBMASK = "meta-kipr/recipes-bsp"
